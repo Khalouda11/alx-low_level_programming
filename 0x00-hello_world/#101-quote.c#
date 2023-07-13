@@ -1,0 +1,6 @@
+#include <unistd.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: a C program
