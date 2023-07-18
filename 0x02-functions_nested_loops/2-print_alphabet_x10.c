@@ -4,8 +4,7 @@
  * print_alphabet - utilizes on the _putchar function will print x10
  *
 */
-
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 int n, ch;
 for (n = 1; n <= 10; n++)
