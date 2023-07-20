@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -16,8 +15,8 @@ for (row = 1; row <= size; row++)
 {
 for (column = 1; column <= size; column++)
 {
-_putchar('#')
+_putchar('#');
 }
-_putchar('\n')
+_putchar('\n');
 }
 }
