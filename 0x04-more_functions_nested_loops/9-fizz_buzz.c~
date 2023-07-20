@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+ * fizzBuzz - prints the numbers from 1 to 100, 
+ * multiples of 5 with Buzz, and multiples of both 3 and 5 with FizzBuzz
+*/
+
+int main(void)
+{
+int i, fizz, buzz;
+printf("Enter Fizz and Buzz values: ");
+scanf("%d%d", &fizz, &buzz);
+for (i = 1; i <= 100; i++)
+{
+if (i % fizz == 0 && i % buzz == 0)
+{
+printf("FizzBuzz\n");
+}
+else if (i % fizz == 0)
+{
+printf("Fizz\n");
+}
+else if (i % buzz == 0)
+{
+printf("Buzz\n");
+}
+else
+{
+printf("%d\n", i);
+}
+}
+return (0);
+}
