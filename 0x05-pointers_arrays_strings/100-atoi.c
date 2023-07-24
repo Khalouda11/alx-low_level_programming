@@ -6,6 +6,7 @@
  *
  * Return: the integer value of the string, or 0 if no integer found
 */
+
 int _atoi(char *s)
 {
 int result = 0;
@@ -27,5 +28,5 @@ break;
 }
 i++;
 }
-return (result * sign);
+return (result *sign);
 }
