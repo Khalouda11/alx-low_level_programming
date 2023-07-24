@@ -9,7 +9,8 @@
  *
  * Return: the integer value of the string, or 0 if no integer found
 */
-int _atoi_max(char *s)
+
+int _atoi(char *s);
 {
 int result = 0;
 int sign = 1;
