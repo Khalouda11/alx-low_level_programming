@@ -1,34 +1,24 @@
 #include "main.h"
 
-#define MAX_DIGITS 10
-
 /**
- * _atoi_max - convert a string to an integer, up to a specific num
+ * _atoi - convert a string to an integer
  * @s: the string to convert
  *
  * Return: the integer value of the string, or 0 if no integer found
 */
-int MAX_DIGITS;
-int _atoi(char *s);
+
+int _atoi(char *s)
 {
-int result = 0;
-int sign = 1;
-int i = 0;
-while (s[i] != '\0' && i < MAX_DIGITS)
-{
-if (s[i] == '-')
-{
-sign = -sign;
-}
-else if (s[i] >= '0' && s[i] <= '9')
-{
-result = result * 10 + (s[i] - '0');
-}
-else if (result > 0)
-{
+unsigned int num = 0;
+int sgn = 1;
+
+do {
+if (*s == '-')
+sign *= -1;
+else if (*s >= '0' && *s <= '9')
+num = (num * 10) + (*s - '0');
+else if (num > 0)
 break;
-}
-i++;
-}
-return (result *sign);
+} while (*s++);
+return (num *sign);
 }
