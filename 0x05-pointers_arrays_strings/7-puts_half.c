@@ -1,5 +1,5 @@
 #include "main.h"
-
+11;rgb:0000/0000/0000
 /**
  * puts_half - print second half of a string
  *
@@ -16,7 +16,7 @@ for (i = 0; str[i] != '\0'; i++)
 ;
 }
 i++;
-for (i \ = 2; str[i] != '\0'; i++)
+for (i \= 2; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
