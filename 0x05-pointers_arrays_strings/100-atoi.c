@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 #define MAX_DIGITS 10
@@ -9,7 +8,7 @@
  *
  * Return: the integer value of the string, or 0 if no integer found
 */
-
+int MAX_DIGITS;
 int _atoi(char *s);
 {
 int result = 0;
