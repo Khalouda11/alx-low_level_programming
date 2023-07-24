@@ -6,7 +6,6 @@
 /**
  * _atoi_max - convert a string to an integer, up to a specific num
  * @s: the string to convert
- * @max_digits: the maximum number of digits to convert
  *
  * Return: the integer value of the string, or 0 if no integer found
 */
