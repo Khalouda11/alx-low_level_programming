@@ -22,7 +22,7 @@ if (*s == rot13[i])
 break;
 }
 }
-s++
+s++;
 }
 return (ptr);
 }
