@@ -8,7 +8,7 @@
  * Return: string
 */
 
-cahr *string_toupper(char *str)
+cahr *string_toupper(char *)
 {
 int i;
 for (i = 0; str[i] != '\0'; i++)
