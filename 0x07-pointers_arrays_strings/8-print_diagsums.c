@@ -14,7 +14,7 @@ int tyb, s1 = 0, s2 = 0;
 for (tyb = 0; tyb < size; tyb++)
 {
 s1 += a[tyb];
-s2 += a[size - itr - 1];
+s2 += a[size - tyb - 1];
 a += size;
 }
 printf("%d, ", s1);
