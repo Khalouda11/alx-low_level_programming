@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * _strspn - gets the length of a prefix substring.
+ * @s: string.
+ * @accept: bytes.
+ *
+ * Return: unsigned int.
+ *
+*/
+unsigned int _strspn(char *s, char *accept)
+{
+unsigned int exm_1, exm_2;
+for (exm_1 = 0; s[exm_1] != '\0'; exm_1++)
+{
+for (exm_2 = 0; accept[exm_2] != s[exm_1]; exm_2++)
+{
+if (accept[exm_2] == '\0')
+return (exm_1);
+}
+}
+return (exm_1);
+}
