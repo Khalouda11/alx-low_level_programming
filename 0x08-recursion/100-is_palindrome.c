@@ -33,10 +33,10 @@ return (check(s, 0, end - 1, end % 2));
 
 /**
  * check - checker for the palindrome
- * @s: string
- * @start: int moves from right to left
- * @end: int moves from left to right
- * @mod: int
+ * @s: string to check
+ * @start: starting index of the string to check
+ * @end: ending index of the string to check
+ * @mod: modulo value used to determine the middle index of the string
  * Return: 0 or 1
 */
 
