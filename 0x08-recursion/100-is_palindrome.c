@@ -18,9 +18,10 @@ n += last_index(s + 1) + 1;
 }
 return (n);
 }
+
 /**
  * is_palindrome - check if a string is a palindrome
- * @s: string to check
+ * @s: string to be checked
  * Return: 0 or 1
  *
 */
@@ -36,7 +37,7 @@ return (check(s, 0, end - 1, end % 2));
  * @start: int moves from right to left
  * @end: int moves from left to right
  * @mod: int
- * return: 0 or 1
+ * Return: 0 or 1
 */
 
 int check(char *s, int start, int end, int mod)
