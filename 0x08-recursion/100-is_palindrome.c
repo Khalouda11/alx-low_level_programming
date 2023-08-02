@@ -7,9 +7,8 @@
  * Return: int
  *
 */
-
 int is_palindrome(char *s);
-int check (char *s, int start, int end, int mod);
+int check(char *s, int start, int end, int mod);
 int is_palindrome(char *s)
 {
 int n = 0;
@@ -40,7 +39,7 @@ return (check(s, 0, end - 1, end % 2));
  * return: 0 or 1
 */
 
-int check (char *s, int start, int end, int mod)
+int check(char *s, int start, int end, int mod)
 {
 if ((start == end && mod != 0) || (start == end + 1 && mod == 0))
 return (1);
