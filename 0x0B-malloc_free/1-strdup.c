@@ -16,12 +16,12 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (; str[size] != '\0'; size++)
+for (i = 0; str[i] != '\0'; i++)
 {
 ;
 /*+1 on the size puts the end of string character*/
-m = malloc(size * sizeof(*str) + 1);
 }
+m = malloc((size + 1) * sizeof(*str));
 if (m == 0)
 {
 return (NULL);
