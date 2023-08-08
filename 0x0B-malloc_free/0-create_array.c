@@ -18,3 +18,4 @@ while (size--)
 n[size] = c;
 }
 return (n);
+}
