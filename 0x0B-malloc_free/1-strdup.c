@@ -5,8 +5,9 @@
  * which contains a copy of the string given as a parameter
  * @str: string
  * Return: 0
- * 
+ *
 */
+
 char *_strdup(char *str)
 {
 int i = 0, size = 0;
