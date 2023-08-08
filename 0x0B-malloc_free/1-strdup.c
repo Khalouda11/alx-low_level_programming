@@ -18,7 +18,7 @@ return (NULL);
 }
 for (i = 0; str[i] != '\0'; i++)
 {
-;
+size++;
 /*+1 on the size puts the end of string character*/
 }
 m = malloc((size + 1) * sizeof(*str));
@@ -31,5 +31,6 @@ else
 for (; i < size; i++)
 m[i] = str[i];
 }
+m[size] = '\0';
 return (m);
 }
