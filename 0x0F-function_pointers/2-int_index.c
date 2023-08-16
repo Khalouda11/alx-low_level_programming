@@ -15,7 +15,7 @@ if (array && size && cmp)
 {
 while (i < size)
 {
-if ( cmp(array[i]))
+if (cmp(array[i]))
 {
 return (i);
 }
