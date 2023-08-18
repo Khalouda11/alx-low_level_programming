@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 
 /**
  * format_char - formats character
@@ -40,7 +40,7 @@ void format_string(char *separator, va_list ap)
 {
 char *str = va_arg(ap, char *);
 switch ((int)(!str))
-case1:
+case 1:
 str = "(nil)";
 printf("%s%s", separator, str);
 }
@@ -70,10 +70,12 @@ while (tokens[j]. token)
 {
 if (format[i] == tokens[j].token[0])
 {
-tokens[j].f(separator, ap)
+tokens[j].f(separator, ap);
 separator = ", ";
 }
-j++
+j++;
+}
+i++;
 }
 printf("\n");
 va_end(ap);
