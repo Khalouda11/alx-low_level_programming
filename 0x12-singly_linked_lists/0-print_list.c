@@ -32,7 +32,7 @@ size_t i = 0;
 while (h)
 {
 printf("[%d] %s\n", _strlen(h->str), h->str : "(nil)");
-h = h->next
+h = h->next;
 i++;
 }
 return (i);
