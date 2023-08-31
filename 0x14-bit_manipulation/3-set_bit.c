@@ -6,7 +6,7 @@
  * @index: the bit to get
  * Return: 1 if successful, -1 on error
 */
-int set_bit (unsigned long int *n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 if (index >= sizeof(n) * 8)
 {
