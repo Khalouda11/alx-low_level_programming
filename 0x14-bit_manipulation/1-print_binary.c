@@ -17,8 +17,12 @@ _putchar('1');
 printed++;
 }
 else if (printed)
+{
 _putchar('0');
 }
+}
 if (!printed)
+{
 _putchar('0');
+}
 }
